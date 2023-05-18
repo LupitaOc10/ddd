@@ -1,0 +1,24 @@
+package sistema;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class DataVehiculoTest {
+
+	@Test
+	void testInsertar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testCargar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testActualizar() {
+		fail("Not yet implemented");
+	}
+
+}

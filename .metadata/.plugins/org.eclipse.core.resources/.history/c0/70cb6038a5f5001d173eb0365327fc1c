@@ -1,0 +1,17 @@
+package sistema;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class DataVehiculoTest {
+
+	
+
+	@Test
+	void testCargarProveedor() {
+	NegocioVehiculo np=new NegocioVehiculo();
+	np.setVehiculoId("10");
+	assertEquals(np.Cargar(), true);
+}
+}
